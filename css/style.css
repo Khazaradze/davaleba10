@@ -122,7 +122,7 @@ button {
 }
 
 /* section3 */
-.section3{
+.section3 {
     display: flex;
     padding: 64px 150px;
     justify-content: space-between;
@@ -131,15 +131,15 @@ button {
 
 }
 
-.logo{
-width: 40px;
-height: 40px;
+.logo {
+    width: 40px;
+    height: 40px;
 
 
 
 }
 
-.section3_h2{
+.section3_h2 {
     color: #000;
     font-family: Inter;
     font-size: 18px;
@@ -148,7 +148,7 @@ height: 40px;
     line-height: 28px;
 }
 
-.section3_p{
+.section3_p {
     color: #000;
     font-family: Inter;
     font-size: 16px;
@@ -159,10 +159,88 @@ height: 40px;
     margin-top: 16px;
 }
 
-.section3_div{
+.section3_div {
     display: flex;
     align-items: center;
-column-gap: 16px;
+    column-gap: 16px;
 }
 
 /* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #000;
+    padding: 96px 150px;
+    column-gap: 226px;
+
+}
+
+.footer_h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24.653px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26.414px;
+    /* 107.143% */
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 80px;
+}
+
+.article_h2 {
+    margin-bottom: 16px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.1px;
+
+}
+
+.article_ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.article_li {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+ 
+}
+
+.sub {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 24px;
+}
+
+.sub_p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.4;
+    width: 214px;
+}
