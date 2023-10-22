@@ -1,8 +1,11 @@
+/* container */
 .container {
     width: min(100%, 1440px);
     margin: auto;
 }
 
+
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -23,29 +26,61 @@ ul {
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
-    
+
 }
 
 button {
-border: none;
-background: none;
-color: var(--Anti-Flash-White, #F3F3F3);
-text-align: center;
-font-family: Inter;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
+    border: none;
+    background: none;
+    color: var(--Anti-Flash-White, #F3F3F3);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
-.action{
-padding: 12px 24px;
-border-radius: 32px;
-background: var(--Black, #000);
+.action {
+    padding: 12px 24px;
+    border-radius: 32px;
+    background: var(--Black, #000);
 }
 
-.bar{
-display: none;
-width: 25px;
-height: 25px;
+.bar {
+    display: none;
+    width: 25px;
+    height: 25px;
 }
 
+/* section1 */
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 125px;
+    column-gap: 130px;
+    align-items: center;
+}
+
+
+
+.section_h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+}
+
+.section_p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+
+}
