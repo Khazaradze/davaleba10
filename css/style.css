@@ -120,3 +120,49 @@ button {
     height: 400px;
     border-radius: 12px;
 }
+
+/* section3 */
+.section3{
+    display: flex;
+    padding: 64px 150px;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+
+}
+
+.logo{
+width: 40px;
+height: 40px;
+
+
+
+}
+
+.section3_h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.section3_p{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 16px;
+}
+
+.section3_div{
+    display: flex;
+    align-items: center;
+column-gap: 16px;
+}
+
+/* footer */
